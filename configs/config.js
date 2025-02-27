@@ -14,4 +14,9 @@ module.exports = {
       '<section>\n  <div>\n    <span class="pageNumber"></span>\n    / <span class="totalPages"></span>\n  </div>\n</section>',
   },
   stylesheet_encoding: "utf-8",
+
+  // Puppeteer の起動オプションを追加
+  launch_options: {
+    args: ["--no-sandbox"],
+  },
 };
