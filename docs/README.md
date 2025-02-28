@@ -37,13 +37,13 @@
 
 ### スキルセット
 
-| カテゴリ | 技術スタック |
+| カテゴリ | 技術スタック（経験年数） |
 | --- | --- |
-| **プログラミング言語** | Python (3.7~3.12), TypeScript, Rust, JavaScript, Perl, C#, SQL |
-| **フレームワーク** | FastAPI, Node.js (16~22), Express, Vue.js |
-| **データベース** | PostgreSQL, SQLAlchemy, Alembic |
-| **インフラ** | AWS (Lambda, ECS, DynamoDB, RDS, S3, API Gateway, Secrets Manager, SSM, Firehose), AWS SAM, Docker, LocalStack |
-| **CI/CD** | GitHub Actions |
+| **プログラミング言語** | Python (3年), TypeScript（2年）, Rust（6ヶ月）, JavaScript（2年）, Perl（1年6ヶ月）, C#（1年）, SQL（1年6ヶ月） |
+| **フレームワーク** | FastAPI（1年6ヶ月）, Node.js (2年), Express（1年）, Vue.js（3ヶ月） |
+| **データベース** | PostgreSQL（1年6ヶ月）, mysql（6ヶ月）、SQLAlchemy（1年）, Alembic（1年） |
+| **インフラ** | AWS （2年）(Lambda, ECS, DynamoDB, RDS, S3, API Gateway, Secrets Manager, SSM, Firehose), AWS SAM, Docker, LocalStack |
+| **CI/CD** | GitHub Actions（1年6ヶ月） |
 | **Linter / Formatter** | Ruff, mypy, Biome, Prettier |
 | **開発ツール** | Rye, uv, volta, turborepo |
 | **ソース管理** | GitHub, Backlog |
