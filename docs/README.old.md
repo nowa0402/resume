@@ -1,12 +1,12 @@
 # 職務経歴書
 
-<!-- <img src="./profile.jpg" align="right" style="border-radius: 50%; width: 140px; height:140px" >
+<img src="./profile.jpg" align="right" style="border-radius: 50%; width: 140px; height:140px" >
 
 <br/>
 
 <span style="font-size: 1.4em">和山 直樹（Wayama Naoki）</span>
 
-<br/> -->
+<br/>
 
 ## 基本情報
 
@@ -26,11 +26,11 @@
 
 ### 経験
 
-- 気象データの加工・表示に関わるバックエンド開発
+- 気象データの加工・表示のためのバックエンド開発
 - SNSデータの収集・加工に関わるバックエンド開発
 - Web APIの設計・実装
 - スクラムによるアジャイル開発（開発メンバー・スクラムマスター経験あり）
-- TDD/ペアプロ/モブプロの導入と実践。
+- TDD/DDD/ペアプロ/モブプロの導入と実践。
 - 後輩エンジニアの育成・メンタリング
 - テックブログの立ち上げ・運営
 - チームメンバーとの輪読会・勉強会の開催
@@ -41,8 +41,8 @@
 | --- | --- |
 | **プログラミング言語** | Python (3年), TypeScript（2年）, Rust（6ヶ月）, JavaScript（2年）, Perl（1年6ヶ月）, C#（1年）, SQL（1年6ヶ月） |
 | **フレームワーク** | FastAPI（1年6ヶ月）, Node.js (2年), Express（1年）, Vue.js（3ヶ月） |
-| **データベース** | PostgreSQL（1年3ヶ月）, mysql（6ヶ月）、SQLAlchemy（1年）, Alembic（1年） |
-| **インフラ** | AWS （2年）(Lambda, ECS, DynamoDB, RDS, S3, API Gateway, Secrets Manager, SSM, Firehose), AWS CDK(1年6ヶ月), AWS SAM, Docker, LocalStack |
+| **データベース** | PostgreSQL（1年6ヶ月）, mysql（6ヶ月）、SQLAlchemy（1年）, Alembic（1年） |
+| **インフラ** | AWS （2年）(Lambda, ECS, DynamoDB, RDS, S3, API Gateway, Secrets Manager, SSM, Firehose), AWS SAM, Docker, LocalStack |
 | **CI/CD** | GitHub Actions（1年6ヶ月） |
 | **Linter / Formatter** | Ruff, mypy, Biome, Prettier |
 | **開発ツール** | Rye, uv, volta, turborepo |
@@ -75,41 +75,31 @@
 アラート・メール配信機能の基盤を整備する大規模プロジェクトに参画。  
 ユーザーが危機を迅速に察知できる仕組みを構築するため、基盤化前にデータフローの整理を実施。
 
-3名のチームのメンバーとして参加。  
-新たな技術挑戦の一環として、一部機能にRustを導入。  
-GitHub Actionsを活用して**CI/CDパイプラインを構築し、AWS環境へのデプロイを標準化**。これにより、誰でも迷わずデプロイできる環境を整備し、運用負担を軽減。
+- アラート通知基盤の設計・実装
+- Rustを活用した一部機能の開発
+- AWSインフラの構築（CDK, Lambda, DynamoDB, EventBridge）
+- CI/CDパイプラインの構築（GitHub Actions）
 
-| カテゴリ | 使用技術 |
-| --- | --- |
-| **プログラミング言語** | Python, TypeScript, Rust |
-| **インフラ** | AWS (Lambda, DynamoDB, S3, SSM, EventBridge), AWS CDK, Docker |
-| **CI/CD** | GitHub Actions |
-| **Linter / Formatter** | Ruff, mypy, Prettier |
-| **開発ツール** | Rye, uv, volta, turborepo |
-| **ソース管理** | GitHub |
-| **プロジェクト管理** | Notion |
+3名のチームのメンバーとして参加。  
+新たな技術挑戦の一環として、一部機能にRustを導入し、処理の高速化・安全性向上を実現。  
+GitHub Actionsを活用して**CI/CDパイプラインを構築し、AWS環境へのデプロイを標準化**。これにより、誰でも迷わずデプロイできる環境を整備し、運用負担を軽減。
 
 ---
 
 #### ダッシュボード配信機能拡充（気象特別警報・指定河川洪水予報）（2024/06 - 2024/12）
 
 ダッシュボード上に新たな配信データを追加するプロジェクトをリード。  
-気象特別警報や指定河川洪水予報、南海トラフ情報等のデータをリアルタイムで配信できるように拡充。
+気象特別警報や指定河川洪水予報のデータをリアルタイムで配信できるように拡充。
+
+- 新規データの処理・配信機能の実装
+- AWS環境でのシステム構築（CDK, Lambda, DynamoDB, S3, EventBridge）
+- コード品質向上施策（Ruffによる統一されたフォーマット設定）
+- TDD/DDDの導入
 
 （2024/06 - 2024/12）3名のチームをリードし、開発を推進。  
-経験の浅いメンバー（新入社員含む）をサポートするため、**TDD・ペアプロ・モブプログラミングを導入**。知見の共有を促進し、**プロジェクトを遅延なくスケジュール通りリリース**した。  
+経験の浅いメンバー（新入社員含む）をサポートするため、**ペアプロ・モブプログラミングを積極的に導入**。知見の共有を促進し、**プロジェクトを遅延なくスケジュール通りリリース**。  
 Ruffを用いたリンター・フォーマッター設定を統一し、**チーム全体のコード品質を向上**。  
 GitHub Actionsを活用。プルリク時のテスト実行並びにカバレッジ表示、AWS環境へのデプロイを標準化し、コード品質を一定に保つ仕組みを導入した。
-
-| カテゴリ | 使用技術 |
-| --- | --- |
-| **プログラミング言語** | Python, TypeScript |
-| **インフラ** | AWS (Lambda, DynamoDB, S3, SSM, EventBridge), AWS CDK, Docker |
-| **CI/CD** | GitHub Actions |
-| **Linter / Formatter** | Ruff, mypy, Prettier |
-| **開発ツール** | Rye, uv, volta |
-| **ソース管理** | GitHub |
-| **プロジェクト管理** | Notion |
 
 ---
 
@@ -118,19 +108,14 @@ GitHub Actionsを活用。プルリク時のテスト実行並びにカバレッ
 SNSデータの取得・解析を行うシステムの開発。  
 API仕様変更に伴い、既存システムの改修と新規機能追加を担当。
 
-3名のチームをリードし、開発を推進。  
-チームとして初めてTypeScriptを本格的に活用するプロジェクトであったため、**ペアプロ・モブプログラミングを実施し、知見の共有を促進**。チームで輪読会を行いTypeScriptのキャッチアップも実施した。  
-社内初の**Turborepoによるモノレポ管理とBiomeを活用したリンター導入**を実施。これにより、**開発の効率化とコード品質向上を実現**し、移行期限の**2週間前にプロジェクトを完遂**。
+- API仕様変更に伴うデータ取得ロジックの改修
+- AWS環境でのデータ解析パイプラインの構築（Firehose, ECS, Lambda）
+- モノレポ管理の導入（Turborepo）
+- Biomeを活用したコード品質向上施策
 
-| カテゴリ | 技術スタック |
-| --- | --- |
-| **プログラミング言語** | TypeScript |
-| **インフラ** | AWS (Lambda, ECS, DynamoDB, S3, SSM, EventBridge, Firehose), AWS CDK, Docker |
-| **CI/CD** | GitHub Actions |
-| **Linter / Formatter** | Ruff, mypy, Prettier |
-| **開発ツール** | Rye, uv, volta, turborepo |
-| **ソース管理** | GitHub |
-| **プロジェクト管理** | Notion |
+3名のチームをリードし、開発を推進。  
+チームとして初めてTypeScriptを本格的に活用するプロジェクトであったため、**ペアプロ・モブプログラミングを実施し、知見の共有を促進**。  
+社内初の**Turborepoによるモノレポ管理とBiomeを活用したリンター導入**を実施。これにより、**開発の効率化とコード品質向上を実現**し、移行期限の**2週間前にプロジェクトを完遂**。
 
 ## 株式会社アーセス(2022/01 - 2023/10)
 
@@ -145,23 +130,43 @@ API仕様変更に伴い、既存システムの改修と新規機能追加を�
 #### 気象データAPIの開発（2022/07 - 2023/03）
 
 気象プロダクトの解析・保存機能およびデータ提供APIの開発を担当。
-APIは現在または指定された日時の過去データを取得するものである。
+
+- 気象データの解析・保存
+- 指定期間のデータ取得APIの開発
+- AWS環境の最適化（LocalStack, AWS SAM導入）
+- SQLAlchemy・Alembicを用いたDBマイグレーションの導入
 
 2名のチームのメンバーとして参加。  
-既存のデータ取得APIは処理が重かったため、格納データのバイナリ化を提案・実装し、**APIレスポンスを実装前から50%高速化**。
-SQLAlchemy・Alembicを用いたDBマイグレーションの導入
+既存のデータ取得APIは処理が重かったため、格納データのバイナリ化を提案・実装し、**APIレスポンスを実装前から50%高速化**。  
 社内初のAWS案件だったため、ローカル開発環境にLocalStackを導入、IaCにAWS SAMを調査・提案・実装し、**今後の開発基盤を整備。開発スピードを向上させ、デプロイ前の動作確認の手間を削減**。
 
-| カテゴリ | 使用技術 |
-| --- | --- |
-| **プログラミング言語** | Python |
-| **フレームワーク** | FastAPI |
-| **データベース** | PostgreSQL, SQLAlchemy, Alembic |
-| **インフラ** | AWS (Lambda, RDS, S3, SecretsManager, EventBridge), AWS SAM, Docker, localstack |
-| **Linter / Formatter** | black, flake8, mypy |
-| **開発ツール** | pipenv |
-| **ソース管理** | Backlog |
-| **プロジェクト管理** | Backlog |
+---
+
+#### 認証認可APIの開発（2023/04 - 2023/05）
+
+某気象企業向けの認証認可機能APIをOpenID Connect仕様で構築。
+
+- OpenID Connectに準拠したAPIの設計・実装
+- Sequelize ORMの導入
+- 既存プラットフォームとの互換性を維持したAPI設計
+
+2名のチームのメンバーとして参加。  
+認証基盤として既存のプラットフォームに適応させる必要があったため、**外部サービスとの統合を意識したAPI設計を提案・実装**。  
+Sequelizeを導入し、開発効率を向上させつつ、**保守性の高いコードベースにリファクタリングを実施**。
+
+---
+
+#### 水防活動報告書作成システムの開発（2022/03 - 2022/06）
+
+水防活動報告書を作成・保存・印刷するためのシステムを開発。
+
+- APIの設計・実装（FastAPI, PostgreSQL）
+- APIモックの作成
+- システム運用改善（gunicornのsystemd対応）
+
+5名のチーム（うち外注2名）で開発。エンジニアキャリア初案件
+フロントエンドメンバーと認識を合わせるため、**APIモックを早期に作成し、開発の効率を向上**。  
+運用時にgunicornのプロセスが予期せず停止する問題があったため、**systemdによる永続化を実施し、システムの安定稼働を実現**。
 
 ## 資格
 
@@ -171,4 +176,3 @@ SQLAlchemy・Alembicを用いたDBマイグレーションの導入
 - **LPIC-2**（2024.08）
 - **応用情報技術者試験**（2024.12）
 - **AWS Certified Solutions Architect - Associate**（2025.02）
-- **AWS Certified Developer - Associate**（2025.03）
