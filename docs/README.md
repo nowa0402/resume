@@ -86,8 +86,6 @@ GitHub Actionsを活用して**CI/CDパイプラインを構築し、AWS環境�
 | **CI/CD** | GitHub Actions |
 | **Linter / Formatter** | Ruff, mypy, Prettier |
 | **開発ツール** | Rye, uv, volta, turborepo |
-| **ソース管理** | GitHub |
-| **プロジェクト管理** | Notion |
 
 ---
 
@@ -108,8 +106,6 @@ GitHub Actionsを活用。プルリク時のテスト実行並びにカバレッ
 | **CI/CD** | GitHub Actions |
 | **Linter / Formatter** | Ruff, mypy, Prettier |
 | **開発ツール** | Rye, uv, volta |
-| **ソース管理** | GitHub |
-| **プロジェクト管理** | Notion |
 
 ---
 
@@ -120,17 +116,15 @@ API仕様変更に伴い、既存システムの改修と新規機能追加を�
 
 3名のチームをリードし、開発を推進。  
 チームとして初めてTypeScriptを本格的に活用するプロジェクトであったため、**ペアプロ・モブプログラミングを実施し、知見の共有を促進**。チームで輪読会を行いTypeScriptのキャッチアップも実施した。  
-社内初の**Turborepoによるモノレポ管理とBiomeを活用したリンター導入**を実施。これにより、**開発の効率化とコード品質向上を実現**し、移行期限の**2週間前にプロジェクトを完遂**。
+社内初の**Turborepoによるモノレポ管理とBiomeを活用したリンター導入**を実施。これにより、開発の効率化とコード品質向上を実現し、移行期限の**2週間前にプロジェクトを完遂**。
 
-| カテゴリ | 技術スタック |
+| カテゴリ | 使用技術 |
 | --- | --- |
 | **プログラミング言語** | TypeScript |
 | **インフラ** | AWS (Lambda, ECS, DynamoDB, S3, SSM, EventBridge, Firehose), AWS CDK, Docker |
 | **CI/CD** | GitHub Actions |
-| **Linter / Formatter** | Ruff, mypy, Prettier |
+| **Linter / Formatter** | Ruff, mypy, Biome |
 | **開発ツール** | Rye, uv, volta, turborepo |
-| **ソース管理** | GitHub |
-| **プロジェクト管理** | Notion |
 
 ## 株式会社アーセス(2022/01 - 2023/10)
 
@@ -138,7 +132,7 @@ API仕様変更に伴い、既存システムの改修と新規機能追加を�
 
 ### チーム構成
 
-2~3人1チームのメンバー。所属部署は10人、全体で30人ほどエンジニアが所属。
+2~3人で1チームのメンバー。所属部署は10人、全体で30人ほどエンジニアが所属。
 
 ### 主な実績
 
@@ -160,8 +154,6 @@ SQLAlchemy・Alembicを用いたDBマイグレーションの導入
 | **インフラ** | AWS (Lambda, RDS, S3, SecretsManager, EventBridge), AWS SAM, Docker, localstack |
 | **Linter / Formatter** | black, flake8, mypy |
 | **開発ツール** | pipenv |
-| **ソース管理** | Backlog |
-| **プロジェクト管理** | Backlog |
 
 ## 資格
 
