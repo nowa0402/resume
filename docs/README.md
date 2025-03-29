@@ -123,8 +123,8 @@ API仕様変更に伴い、既存システムの改修と新規機能追加を�
 | **プログラミング言語** | TypeScript |
 | **インフラ** | AWS (Lambda, ECS, DynamoDB, S3, SSM, EventBridge, Firehose), AWS CDK, Docker |
 | **CI/CD** | GitHub Actions |
-| **Linter / Formatter** | Ruff, mypy, Biome |
-| **開発ツール** | Rye, uv, volta, turborepo |
+| **Linter / Formatter** | Biome |
+| **開発ツール** | volta, turborepo |
 
 ## 株式会社アーセス(2022/01 - 2023/10)
 
