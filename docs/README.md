@@ -39,7 +39,7 @@
 
 | カテゴリ | 技術スタック（経験年数） |
 | --- | --- |
-| **プログラミング言語** | Python (3年), TypeScript（2年）, Rust（6ヶ月）, JavaScript（2年）, Perl（1年6ヶ月）, C#（1年）, SQL（1年6ヶ月） |
+| **プログラミング言語** | Python (3年), TypeScript（2年）, Rust（5ヶ月）, JavaScript（2年）, Perl（1年6ヶ月）, C#（1年）, SQL（1年6ヶ月） |
 | **フレームワーク** | FastAPI（1年6ヶ月）, Node.js (2年), Express（1年）, Vue.js（3ヶ月） |
 | **データベース** | PostgreSQL（1年3ヶ月）, MySQL（6ヶ月）、SQLAlchemy（1年）, Alembic（1年） |
 | **インフラ** | AWS （2年）(Lambda, ECS, DynamoDB, RDS, S3, API Gateway, Secrets Manager, SSM, Firehose), AWS CDK(1年6ヶ月), AWS SAM, Docker, LocalStack |
